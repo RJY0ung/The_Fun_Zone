@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.thefunzone">
+
+    <!-- for facebook -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- for the motion sensor -->
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
+
+        <!-- for facebook sdk -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity
+            android:name=".shakeInstructions"
+            android:parentActivityName=".categoriesPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thefunzone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".speedMathsInstructions"
+            android:parentActivityName=".categoriesPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thefunzone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".settingsPage"
+            android:parentActivityName=".categoriesPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thefunzone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".shakeTheRightAnswer"
+            android:parentActivityName=".categoriesPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thefunzone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".speedMaths"
+            android:parentActivityName=".categoriesPage">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thefunzone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".categoriesPage"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.thefunzone.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- for facebook -->
+        <provider
+            android:authorities="com.facebook.app.FacebookContentProvider542629126626342"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+    </application>
+
+</manifest>

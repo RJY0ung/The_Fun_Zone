@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">The Fun Zone</string>
+    <string name="the_fun_zone">The Fun Zone</string>
+    <string name="play">Play</string>
+    <string name="high_scores">High Scores</string>
+    <string name="logo">logo</string>
+    <string name="categories">Categories</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="shake_the_right_number">Shake the right number</string>
+    <string name="count_the_fruits">Count the Fruits</string>
+    <string name="guess_the_tiles">Guess the Tiles</string>
+    <string name="find_the_next_shape">Whats the Shape</string>
+    <string name="suits_picture">Suits Picture</string>
+    <string name="settings">Settings</string>
+    <string name="choose_the_difficulty_level">Choose the difficulty level: </string>
+    <string name="ok">OK</string>
+    <string name="speed_maths">Speed Maths</string>
+    <string name="instructions">Instructions</string>
+    <string name="speed_maths_instructions_text">Speed Maths is a quiz game. Your objective is to answer as many questions as possible within the time limit. Each correct answer is worth 1 point. You may select the difficulty level of the quiz below. You can also change the difficulty level in the settings page. Good Luck!</string>
+    <string name="highscore_0">Highscore: 0</string>
+    <string name="shake_device_instructions">In this game, there would be a statement and a set of random numbers. Your job is to shake the device whenever the random number fits the statement. For example, if the statement says: multiples of 2, the player should shake their device whenever an even number is shown. Each correct answer is 1 point. Good luck!</string>
+    <string name="shake_the_right_answer">Shake The Right Answer</string>
+    <string name="name">Name:</string>
+    <string name="score">Score:</string>
+    <string name="back">Back</string>
+    <string name="score_0">Score: 0</string>
+    <string name="multiples_of_3">Multiples of 3</string>
+    <string name="_01_00">01:00</string>
+    <string name="_0">0</string>
+    <string name="start">Start</string>
+    <string name="question_1_x">Question: 1/x</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="_00_30">00:30</string>
+    <string name="question_text">The maths equation would be substituted here</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="confirm">confirm</string>
+
+
+    <string-array name="Levels">
+
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+
+    </string-array>
+
+    <string name="facebook_app_id">542629126626342</string>
+    <string name="facebook_login_protocol_scheme">fb542629126626342</string>
+    <string name="share_link">Share this game on Facebook</string>
+
+</resources>
